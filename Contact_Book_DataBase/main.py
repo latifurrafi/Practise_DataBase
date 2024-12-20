@@ -52,10 +52,10 @@ def main_menu():
         elif choice == '2':
             show_contacts()
         elif choice == '3':
-            print("Exiting program. Goodbye!")
+            print("Exiting Program. Goodbye!")
             break
         else:
-            print("Invalid choice. Please try again.")
+            print("Invalid Choice. Please try again.")
 
 # Close the connection
 try:
