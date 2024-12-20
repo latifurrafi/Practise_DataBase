@@ -4,7 +4,7 @@ import mysql.connector
 conn = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='1234',
+    password='your_password',
     database='contact_db',
     charset='utf8mb4',
     collation='utf8mb4_general_ci'
