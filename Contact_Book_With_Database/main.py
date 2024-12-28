@@ -4,7 +4,7 @@ import mysql.connector
 conn = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='your_password',
+    password='1234',
     database='contact_db',
     charset='utf8mb4',
     collation='utf8mb4_general_ci'
@@ -63,3 +63,5 @@ try:
 finally:
     cursor.close()
     conn.close()
+
+print('rafi')
